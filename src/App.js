@@ -8,7 +8,6 @@ const App = () => {
   const [system, setSystem] = useState(undefined);
   const [isLoggedIn, setIsLoggedIn] = React.useState(false);
   const authUrl = shield.getAuthUrl();
-
   const setLayout = () => {
     setSystem({
       module: './layout',
