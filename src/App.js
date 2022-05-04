@@ -5,6 +5,7 @@ import './assets/css/main.scss';
 import env from 'env';
 
 const App = () => {
+
   const [system, setSystem] = useState(undefined);
   const [isLoggedIn, setIsLoggedIn] = React.useState(false);
   const authUrl = shield.getAuthUrl();
