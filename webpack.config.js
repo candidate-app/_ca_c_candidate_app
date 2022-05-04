@@ -16,7 +16,6 @@ const port =
       process.env.BLOX_ENV_URL_c_candidate_app.length - 4
     )
   ) || 3000;
-
 export default {
   entry: './src/index',
   mode: 'development',
